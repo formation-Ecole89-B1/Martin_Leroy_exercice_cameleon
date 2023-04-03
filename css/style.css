@@ -18,6 +18,7 @@
     background-color: #f05768;
     border-bottom: 3px solid;
     border-color: white;
+    border-radius: 5px;
 }
 
 .title {
@@ -38,14 +39,11 @@
     list-style-type: none;
 }
 
-.container li {
-    margin-left:0px;
-    float:left;
-}
-
 .container li a {
+    float: left;
     display: block;  
     width: 70px;
+    height: 20px;
     font-size: 20px;
     font-family: sans-serif;
     font-style: normal;
@@ -53,4 +51,29 @@
     color: yellowgreen;
     text-align:center;
     padding:5px;
-    }
+}
+
+.container li img {
+    float: right;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+#title2 {
+    color: #4992dc;
+    margin-top: -7px;
+    margin-left: 5px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#paragraph {
+    color: white;
+    font-family: sans-serif;
+}
+
+#paragraph a {
+    text-decoration: underline;
+    color: yellowgreen;
+}
