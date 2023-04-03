@@ -1,13 +1,31 @@
-.title {
+.body {
+    width: 900;
+    background-color: #2f3848; 
+}
+
+.bande {
     position: absolute;
+    padding: 0px;
+    margin: 0px;
+    width: 900px;
+    height: 70px;
     left: 50%;
     transform: translate(-50%);
+    text-align: center;
     background-color: #f05768;
+    border-bottom: 3px solid;
+    border-color: white;
+}
+
+.title {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     text-align: center;
 }
 
 .title h1{
     color : white;
     font-style: italic;
-    font-weight: bolder;
+    font-size: 40px;
 }
