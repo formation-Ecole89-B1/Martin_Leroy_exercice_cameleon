@@ -1,0 +1,13 @@
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #f05768;
+    text-align: center;
+}
+
+.title h1{
+    color : white;
+    font-style: italic;
+    font-weight: bolder;
+}
