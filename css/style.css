@@ -1,5 +1,8 @@
 .body {
-    width: 900;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 900px;
     background-color: #2f3848; 
 }
 
@@ -26,3 +29,28 @@
     font-style: italic;
     font-size: 40px;
 }
+
+.container {
+    padding:0;
+    margin:0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.container li {
+    margin-left:0px;
+    float:left;
+}
+
+.container li a {
+    display: block;  
+    width: 70px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    color: yellowgreen;
+    text-align:center;
+    padding:5px;
+    }
